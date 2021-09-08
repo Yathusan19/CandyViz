@@ -1,0 +1,148 @@
+body{
+    width: var(--largeur-entière);
+    height: 100vh;
+    background: linear-gradient(89.7deg, #FFE7EE 0.29%, #FFACC5 101.34%);
+    color: #5A5A5A;
+    padding: 0 90px 0 90px;
+}
+
+header{
+    width:  calc(100vw - 180px);
+    height: var(--height-header);
+    display: flex;
+    align-items: center;
+}
+
+header > nav {
+    width:  calc(100vw - 180px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav > div > div.burger::before{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    bottom: 7px;
+}
+
+nav > div > div.burger{
+    position: relative;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+}
+
+nav > div > div.burger::after{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    top: 7px;
+}
+
+label {
+    display: block;
+    margin-top: 60px;
+}
+
+select {
+    margin-top: 20px;
+    background-color: #e4e4e4;
+    width: 280px;
+    height:35px;
+    display: block;
+    border:none;
+    margin-left: 120px;
+
+}
+
+option {
+    position: absolute;
+    width: 416px;
+    height: 43px;
+    left: 157px;
+    top: 440px;
+}
+
+h1 {
+    font-size: 36px;
+    z-index:1000;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 24px;
+    margin-left: 80px;
+}
+
+main > div.questionnaire {
+    font-size: 24px;
+}
+
+h3 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.rond{
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 3px solid #5A5A5A;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.num{
+    margin: 5px auto ;
+}
+
+.rond>.num{
+    margin-left: 10px;
+}
+
+#p-question-1{
+    display: inline-block;
+    margin-left: 0;
+}
+
+#question{
+    width:60%;
+    font-size:24px;
+    font-family: 'Roboto';
+}
+
+#logo{
+    margin-left: -35px;
+}
+
+#commentaire{
+    width: 500px;
+    height:200px;
+    background-color: #E4E4E4;
+    border:none;
+    margin-bottom: 100px;
+    display: block;
+}
+
+button{
+    background: linear-gradient(180deg, #EC7CD3 0%, #A85996 100%);
+    border:none;
+    width: 150px;
+    height:50px;
+    border-radius:20px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    color:white;
+    font-size: 20px;
+}

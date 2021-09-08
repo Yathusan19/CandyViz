@@ -1,0 +1,54 @@
+footer {
+   font-size : 20px;
+   background: linear-gradient(to left, #FF928B, #CC6F69);
+   text-align: center;
+   width: 100%;  
+   margin: 20px 0;
+}
+footer#footer-slide-2 {
+   background: linear-gradient(to left,#6B8ED0, #8BB3FF);
+   margin: 20px 0;
+}
+footer#footer-slide-3 {
+   background: linear-gradient(to left, #F2CE1D, #FFE97E);
+   margin: 20px 0;
+}
+
+footer#footer-slide-4 {
+   background: linear-gradient(to left, #FFB53F, #F89A37);
+   margin: 20px 0;
+}
+
+footer#footer-slide-5 {
+   background: linear-gradient(to left,#EA488C ,#ED7CB2 );
+   margin: 20px 0;
+}
+footer#footer-slide-6 {
+   background: linear-gradient(to left, #EB80AD, #F9BEB3);
+   margin: 20px 0;
+}
+footer#footer-slide-7 {
+   background: linear-gradient(to left,#DCCA3F , #FFED66);
+   margin: 20px 0;
+}
+footer#footer-slide-8 {
+   background: linear-gradient(to left,#48D6DF , #60E6EF);
+   margin: 20px 0;
+}
+footer#footer-slide-9 {
+   background: linear-gradient(to left,#BA1E1E , #FF7474);
+   margin: 20px 0;
+}
+footer#footer-slide-10 {
+   background: linear-gradient(to left,#2D42FF ,#7D92FF );
+   margin: 20px 0;
+}
+
+footer > ul > a{
+   text-decoration: none;
+}
+footer > ul > a, li:nth-child(2n) {
+   display: inline-block;
+   color: white;
+
+}

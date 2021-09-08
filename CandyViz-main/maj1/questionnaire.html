@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <title>Candyviz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="height=device-height width=device-width, initial-scale=1.0, minimum-scale=1.0 maximum-scale=1.0, user-scalable=no target-densitydpi=device-dpi">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="./css/page.css">
+    <link rel="stylesheet" href="./css/header.css   ">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2? family= Playfair+Display:wght@400;700 & family= Roboto & display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="lightbox">
+        <nav class="container-menu">
+            <p class="text-1"><label class="container-menu-img"><img src="./img/btn-x.png" alt="fermer" class="btn-x"></label></p>
+            <ul class="menu">
+                <li><a href="index.php">Accueil</a></li>
+                <li><a href="questionnaire.html">Questionnaire</a></li>
+                
+                <li><a href="apropos.html">À Propos</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header>
+        <nav>
+            <a href="index.php"><h1>Candyviz</h1></a>
+            <div>
+                <div class="burger"></div>
+            </div>
+            <ul>
+                <a href="questionnaire.html"><li>Questionnaire</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+                <h2>Questionnaire</h2>
+                <p id="question">Ce questionnaire rapide sur les bonbons va nous
+                permettre de collecter encore plus de données! Merci
+                de bien vouloir y répondre .</p>
+
+                <div class="questionnaire">
+                <div class = "rond"><p class = "num">1</p></div><p id = "p-question-1">Quel âge avez vous ?</p>
+
+                <select>
+                    <option value="Sélectionner">Sélectionner</option>
+                    <option value="-15 ans">-15 ans</option>
+                    <option value="15-24 ans">15-24 ans</option>
+                    <option value="25-34 ans">25-34 ans</option>
+                    <option value="35-44 ans">35-44 ans</option>
+                    <option value="45-54 ans">45-54 ans</option>
+                    <option value="55-64 ans">55-64 ans</option>
+                    </select>
+
+                <label><div class = "rond"><p class = "num">2</p></div>Quel est le bonbon qui a marqué votre enfance ?</label>
+
+                <select>
+                    <option value="Sélectionner">Sélectionner</option>
+                    <option value="Les Fraises Tagada">Les Fraises Tagada</option>
+                    <option value="Les Dragibus">Les Dragibus</option>
+                    <option value="Les Schoumpfs">Les Schoumpfs</option>
+                    <option value="Les Crocodiles">Les Crocodiles</option>
+                    <option value="Les Chamallows">Les Chamallows</option>
+                    <option value="Les Pastilles Vichy">Les Pastilles Vichy</option>
+                    <option value="La Réglisse">La Réglisse</option>
+                    <option value="Les sucettes">Les sucettes</option>
+                    <option value="Les Caramels">Les Caramels</option>
+                    <option value="Les Koala">Les Koala</option>
+                    <option value="Autre">Autre</option>
+                    </select>
+
+                <label><div class = "rond"><p class = "num">3</p></div>Combien de bonbons mangez-vous par mois ?</label>
+
+                <select>
+                    <option value="Sélectionner">Sélectionner</option>
+                    <option value="Une fois par mois">Une fois par mois</option>
+                    <option value="Deux fois par mois">Deux fois par mois</option>
+                    <option value="Une fois par semaine">Une fois par semaine</option>
+                    <option value="Tous les jours">Tous les jours</option>
+                    <option value="Moins d'une fois par mois">Moins d'une fois par mois</option>
+                </select>
+
+                <label><div class = "rond"><p class = "num">4</p></div>Avez-vous déjà eu des problèmes de carries liés aux bonbons ?</label>
+
+                <select>
+                        <option value="Sélectionner">Sélectionner</option>
+                        <option value="Oui">Oui</option>
+                        <option value="Non">Non</option>
+                </select>
+
+
+                <label><div class = "rond"><p class = "num">5</p></div>Avez-vous des problèmes de santé plus importants liés aux bonbons (ex: obésité, diabète) ?</label>
+
+                <select>
+                        <option value="Sélectionner">Sélectionner</option>
+                        <option value="Oui">Oui</option>
+                        <option value="Non">Non</option>
+                        </select>
+
+                        </div>
+
+
+
+                        <h3>Ajouter un commentaire :</h3>
+
+                        <textarea id="commentaire" name="commentaire" rows="5" cols="33"></textarea>
+                        <button>Envoyer</button>
+            </main>
+            </body>

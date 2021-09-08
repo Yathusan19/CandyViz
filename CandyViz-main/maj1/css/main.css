@@ -1,0 +1,973 @@
+*::selection{
+    background: none;
+    color: #814473;
+}
+
+div.main > section.slide > div.container-flex > div:first-child{
+    padding: 20px 0 0 100px;
+}
+div.main > section.slide > div.container-flex > div:last-child{
+    padding: 20px 100px 0 0;
+}
+
+
+
+
+
+
+
+div.main > section.slide > div.container-flex > div > h3 {
+    position: absolute;
+    left: 35vw;
+    top: 0;
+    font-family: var(--font-family-titre);
+    font-size: 330px;
+    background-color: #7c2a24;
+    color: transparent; 
+    opacity: 0.5;
+    z-index: 1;
+    text-shadow: 2px 2px 3px #C5433A;
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+            background-clip: text;
+}
+div.main > section.slide > div.container-flex > div > h3#date-un {
+    position: absolute;
+    left: 135vw;
+    top: 0;
+    font-family: var(--font-family-titre);
+    font-size: 330px;
+    background-color: #3A6BC8;
+    color: transparent; 
+    opacity: 0.5;
+    z-index: 1;
+    text-shadow: 2px 2px 3px #0000002c;
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+            background-clip: text;
+}
+div.main > section.slide > div.container-flex > div > h3#date-deux {
+    position: absolute;
+    left: 235vw;
+    top: 0;
+    font-family: var(--font-family-titre);
+    font-size: 330px;
+    background-color: #bda841;
+    color: transparent; 
+    opacity: 0.5;
+    z-index: 1;
+    text-shadow: 2px 2px 3px #F2CE1D;
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+            background-clip: text;
+}
+
+div.main > section.slide > div.container-flex > div > h3#date-trois {
+    position: absolute;
+    left: 335vw;
+    top: 0;
+    font-family: var(--font-family-titre);
+    font-size: 330px;
+    background-color: #bda841;
+    color: transparent; 
+    opacity: 0.5;
+    z-index: 1;
+    text-shadow: 2px 2px 3px #F2CE1D;
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+            background-clip: text;
+}
+div.main > section.slide > div.container-flex > div > h3#date-quatre {
+    position: absolute;
+    left: 430vw;
+    top: 0;
+    font-family: var(--font-family-titre);
+    font-size: 330px;
+    background-color: #ED7CB2;
+    color: transparent; 
+    opacity: 0.5;
+    z-index: 1;
+    text-shadow: 2px 2px 3px #EA488C;
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+            background-clip: text;
+}
+div.main > section.slide > div.container-flex > div > h3#date-cinq {
+    position: absolute;
+    left: 530vw;
+    top: 0;
+    font-family: var(--font-family-titre);
+    font-size: 330px;
+    background-color: #EB80AD;
+    color: transparent; 
+    opacity: 0.5;
+    z-index: 1;
+    text-shadow: 2px 2px 3px #F9BEB3;
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+            background-clip: text;
+}
+div.main > section.slide > div.container-flex > div > h3#date-six {
+    position: absolute;
+    left: 630vw;
+    top: 0;
+    font-family: var(--font-family-titre);
+    font-size: 330px;
+    background-color: #48D6DF;
+    color: transparent; 
+    opacity: 0.5;
+    z-index: 1;
+    text-shadow: 2px 2px 3px #60E6EF;
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+            background-clip: text;
+}
+div.main > section.slide > div.container-flex > div > h3#date-sept {
+    position: absolute;
+    left: 730vw;
+    top: 0;
+    font-family: var(--font-family-titre);
+    font-size: 330px;
+    background-color: #EB80AD;
+    color: transparent; 
+    opacity: 0.5;
+    z-index: 1;
+    text-shadow: 2px 2px 3px #F9BEB3;
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+            background-clip: text;
+}
+div.main > section.slide > div.container-flex > div > h3#date-huit {
+    position: absolute;
+    left: 830vw;
+    top: 0;
+    font-family: var(--font-family-titre);
+    font-size: 330px;
+    background-color: #EB80AD;
+    color: transparent; 
+    opacity: 0.5;
+    z-index: 1;
+    text-shadow: 2px 2px 3px #F9BEB3;
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+            background-clip: text;
+}
+div.main > section.slide > div.container-flex > div > h3#date-neuf {
+    position: absolute;
+    left: 930vw;
+    top: 0;
+    font-family: var(--font-family-titre);
+    font-size: 330px;
+    background-color: #EB80AD;
+    color: transparent; 
+    opacity: 0.5;
+    z-index: 1;
+    text-shadow: 2px 2px 3px #F9BEB3;
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+            background-clip: text;
+}
+div.main > section.slide > div.container-flex > div > h3#date-dix {
+    position: absolute;
+    left: 1035vw;
+    top: 0;
+    font-family: var(--font-family-titre);
+    font-size: 330px;
+    background-color: #EB80AD;
+    color: transparent; 
+    opacity: 0.5;
+    z-index: 1;
+    text-shadow: 2px 2px 3px #F9BEB3;
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+            background-clip: text;
+}
+div.main > section.slide > div.container-flex > div > h2 {
+    font-size: 50px;
+    color:white;
+    line-height: 80px;
+    padding: 0;
+}
+div.main > section.slide > div.container-flex > div > p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 280px;
+    /* text-align: justify; */
+}
+
+div.main > section.slide > div.container-flex > div > h2, p{
+    margin: 20px 0;
+} 
+div.main > section.slide > div.container-flex > div > img{
+    margin: 0 100px 0 0;
+    width: 300px;
+}
+ .container-flex {
+    display: flex;
+    flex-direction: row;
+    height: 35vh;
+    justify-content: space-between;
+}
+div.main > section.slide > div.container-dataviz{
+    padding: 10px 0; 
+} 
+div.main > section.slide > div.container-dataviz > p {
+    font-size: 25px;
+    font-family: var(--font-family-text);
+    margin: 60px 0 20px 100px;
+}
+
+.rectangle-dataviz {
+    display: block;
+    text-align: center;
+    width: calc(100vw - 180px);
+    height: 350px;
+    background-color: #D96861;
+    color: white;
+    border-radius: 20px;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.486);
+    margin: auto;
+}
+.rectangle-dataviz-1981 {
+    display: block;
+    text-align: center;
+    width: calc(100vw - 180px);
+    height: 350px;
+    background-color: #8BB3FF;
+    color: white;
+    border-radius: 20px;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.486);
+    margin: auto;
+}
+.rectangle-dataviz-1992 {
+    display: block;
+    text-align: center;
+    width: calc(100vw - 180px);
+    height: 350px;
+    background-color: #F3D022;
+    color: white;
+    border-radius: 20px;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.486);
+    margin: auto;
+}
+
+.rectangle-dataviz-1997 {
+    display: block;
+    text-align: center;
+    width: calc(100vw - 180px);
+    height: 350px;
+    background-color: #FF9E00;
+    color: white;
+    border-radius: 20px;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.486);
+    margin: auto;
+}
+.rectangle-dataviz-2000 {
+    display: block;
+    text-align: center;
+    width: calc(100vw - 180px);
+    height: 350px;
+    background-color: #EA488C;
+    color: white;
+    border-radius: 20px;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.486);
+    margin: auto;
+}
+.rectangle-dataviz-2003 {
+    display: block;
+    text-align: center;
+    width: calc(100vw - 180px);
+    height: 350px;
+    background-color: #EB80AD;
+    color: white;
+    border-radius: 20px;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.486);
+    margin: auto;
+}
+.rectangle-dataviz-2006 {
+    display: block;
+    text-align: center;
+    width: calc(100vw - 180px);
+    height: 350px;
+    background-color: #DCCA3F;
+    color: white;
+    border-radius: 20px;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.486);
+    margin: auto;
+}
+.rectangle-dataviz-2008 {
+    display: block;
+    text-align: center;
+    width: calc(100vw - 180px);
+    height: 350px;
+    background-color: #48D6DF;
+    color: white;
+    border-radius: 20px;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.486);
+    margin: auto;
+}
+.rectangle-dataviz-2009 {
+    display: block;
+    text-align: center;
+    width: calc(100vw - 180px);
+    height: 350px;
+    background-color: #BA1E1E;
+    color: white;
+    border-radius: 20px;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.486);
+    margin: auto;
+}
+.rectangle-dataviz-2012 {
+    display: block;
+    text-align: center;
+    width: calc(100vw - 180px);
+    height: 350px;
+    background-color: #2D42FF;
+    color: white;
+    border-radius: 20px;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.486);
+    margin: auto;
+}
+
+
+
+div.rectangle-dataviz > div.container-data-flex {
+    display: flex;
+}
+div.rectangle-dataviz-1981 > div.container-data-flex {
+    display: flex;
+}
+div.rectangle-dataviz-1992 > div.container-data-flex {
+    display: flex;
+}
+div.rectangle-dataviz-1997 > div.container-data-flex {
+    display: flex;
+}
+div.rectangle-dataviz-2000 > div.container-data-flex {
+    display: flex;
+}
+div.rectangle-dataviz-2003 > div.container-data-flex {
+    display: flex;
+}
+div.rectangle-dataviz-2006 > div.container-data-flex {
+    display: flex;
+}
+div.rectangle-dataviz-2008 > div.container-data-flex {
+    display: flex;
+}
+div.rectangle-dataviz-2009 > div.container-data-flex {
+    display: flex;
+}
+div.rectangle-dataviz-2012 > div.container-data-flex {
+    display: flex;
+}
+#chartdiv1 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+#chartdiv2 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+#chartdiv3 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+#chartdiv4 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+#chartdiv5 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+#chartdiv6 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+#chartdiv7 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+#chartdiv8 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+#chartdiv9 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+#chartdiv10 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+#chartdiv11 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+#chartdiv12 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+#chartdiv13 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+#chartdiv14 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+#chartdiv15 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+#chartdiv16 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+#chartdiv17 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+#chartdiv18 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+#chartdiv19 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+#chartdiv20 {
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+div.container-block-responsive {
+    display: none;
+}
+
+.container-dataviz-responsive{
+    display:none;
+}
+
+.container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #chartdiv2{
+    display:none;
+}
+
+div#fleche-dataviz{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        /* RESPONSIVE */
+
+
+                                    
+@media screen and (max-width: 800px){
+
+    body {
+        padding: 0;
+    }
+
+    div.container-flex {
+        display: none;
+    }
+
+    div.container-block-responsive {
+        display: block;
+    }
+
+    div.container-block-responsive > div > h3 {
+        position: absolute;
+        left: calc(50% - 210px/2);
+        top: calc( var(--height-header) - 40px );
+        font-family: var(--font-family-titre);
+        font-size: 100px;
+        background-color: #7c2a24;
+        color: transparent;
+        opacity: 0.7;
+        text-shadow: 2px 2px 3px #C5433A;
+        -webkit-background-clip: text;
+            -moz-background-clip: text;
+                background-clip: text;
+    }
+
+    div.container-block-responsive > div > img {
+        width: 175px;
+        display: block;
+        margin: 115px auto 0px auto;
+
+        
+    }
+
+    div.container-block-responsive > div > h2 {
+        font-size: 50px;
+        color:white;
+        line-height: 80px;
+        padding: 0;
+        text-align: center;
+
+    }
+
+    div.container-block-responsive > div:last-child {
+        padding: 0 40px;
+    }
+
+    div.container-block-responsive > div > p {
+        font-size: 1.2em;
+        font-family: var(--font-family-text);
+        margin: 20px 0;
+        text-align: center;
+
+    }
+
+    .main> .slide > div.container-dataviz {
+        display: none;
+        width: 100%;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .flechee {
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        font-weight: bold;
+        color: white;
+        padding-top: 10px;
+        background-color: violet;
+        border: none;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+
+    }
+
+    main > div.container-responsive {
+        display: block;
+        width: 375px;
+        height: 372px;
+        top: 440px;
+    }
+
+
+    #scroll-gauche {
+        position: absolute;
+        width: 100px;
+        height: 24.17px;
+        left: 28px;
+        top: 625.84px;
+    }
+
+    header > nav > ul > a > li {
+        display: none;
+    }
+
+    div#fleche-dataviz{
+        width: 65px;
+        height: 65px;
+        background: linear-gradient(180deg, #814473 0%, #CF6DB9 100%);
+        box-shadow: 3.83723e-16px 6.26667px 12.5333px rgba(35, 18, 31, 0.4115), inset -1.61164e-16px -2.632px 2.632px #753E69, inset 1.61164e-16px 2.632px 2.632px #DA73C3;
+        border-radius: 50px; 
+        display: block;
+        margin: 55px auto;
+        bottom: 30px;
+        z-index: 10;
+    }
+    div#fleche-dataviz > i {
+        margin: 22px 25px;
+
+    }
+    i {
+        margin-top: 25px;
+        margin-left: 25px;
+        transform: scale(1.55, 1.55);
+    }
+
+    .container-dataviz-responsive{
+        display: none;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        bottom: -400px;
+    }
+
+    .container-dataviz-responsive > .rectangle-dataviz {
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: 372px;
+        background: #F78D86;
+        color: white;
+        border-radius: 20px 20px 0px 0px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 3px 1px 14px 9px rgba(0, 0, 0, 0.25);
+        margin: 20px auto 0 auto;
+        padding: 50px 0 0 0;
+    }
+    .rectangle-dataviz-1981 {
+        display: block;
+        text-align: center;
+        width: calc(100vw - 180px);
+        height: 350px;
+        background-color: #8BB3FF;
+        color: white;
+        border-radius: 20px;
+        box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.486);
+        margin: auto;
+    }
+    .rectangle-dataviz-1992 {
+        display: block;
+        text-align: center;
+        width: calc(100vw - 180px);
+        height: 350px;
+        background-color: #F3D022;
+        color: white;
+        border-radius: 20px;
+        box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.486);
+        margin: auto;
+    }
+    
+    .rectangle-dataviz-1997 {
+        display: block;
+        text-align: center;
+        width: calc(100vw - 180px);
+        height: 350px;
+        background-color: #FF9E00;
+        color: white;
+        border-radius: 20px;
+        box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.486);
+        margin: auto;
+    }
+    .rectangle-dataviz-2000 {
+        display: block;
+        text-align: center;
+        width: calc(100vw - 180px);
+        height: 350px;
+        background-color: #EA488C;
+        color: white;
+        border-radius: 20px;
+        box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.486);
+        margin: auto;
+    }
+    .rectangle-dataviz-2003 {
+        display: block;
+        text-align: center;
+        width: calc(100vw - 180px);
+        height: 350px;
+        background-color: #EB80AD;
+        color: white;
+        border-radius: 20px;
+        box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.486);
+        margin: auto;
+    }
+    .rectangle-dataviz-2006 {
+        display: block;
+        text-align: center;
+        width: calc(100vw - 180px);
+        height: 350px;
+        background-color: #DCCA3F;
+        color: white;
+        border-radius: 20px;
+        box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.486);
+        margin: auto;
+    }
+    .rectangle-dataviz-2008 {
+        display: block;
+        text-align: center;
+        width: calc(100vw - 180px);
+        height: 350px;
+        background-color: #48D6DF;
+        color: white;
+        border-radius: 20px;
+        box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.486);
+        margin: auto;
+    }
+    .rectangle-dataviz-2009 {
+        display: block;
+        text-align: center;
+        width: calc(100vw - 180px);
+        height: 350px;
+        background-color: #BA1E1E;
+        color: white;
+        border-radius: 20px;
+        box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.486);
+        margin: auto;
+    }
+    .rectangle-dataviz-2012 {
+        display: block;
+        text-align: center;
+        width: calc(100vw - 180px);
+        height: 350px;
+        background-color: #2D42FF;
+        color: white;
+        border-radius: 20px;
+        box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.486);
+        margin: auto;
+    }
+    
+
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv2{
+        display: none;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv1{
+        display: block;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv3{
+        display: none;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv4{
+        display: block;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv5{
+        display: none;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv6{
+        display: block;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }.container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv7{
+        display: none;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv8{
+        display: block;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv9{
+        display: none;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv10{
+        display: block;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv11{
+        display: none;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv12{
+        display: block;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv13{
+        display: none;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv14{
+        display: block;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv15{
+        display: none;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv16{
+        display: block;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv17{
+        display: none;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv18{
+        display: block;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv19{
+        display: none;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > #resp_chartdiv20{
+        display: block;
+        margin: 70px auto 0 auto;
+        width: 100%;
+        
+    }
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex{
+        align-items: center;
+    }
+
+    .container-dataviz-responsive > .rectangle-dataviz > .container-data-flex > div#fleche-right, div#fleche-left{
+        display: block;
+        
+        width: 20px;
+        height: 20px;
+        margin: 0;
+    }
+
+
+    .container-dataviz-responsive > .rectangle-dataviz > h4{
+        font-family: var(--font-family-text);
+        font-weight: 600;
+        
+    }
+    .container-data-flex{
+        display: block;
+    }
+
+    .container-dataviz-responsive>.rectangle-dataviz{
+        border-radius: 30px 30px 0 0 ;
+    }
+
+    .container-block-responsive > div > p#text{
+        display: block;
+        
+    }
+
+    nav.container-menu ul.menu li:nth-child(2){
+        display: block;
+    }
+
+    .btn-x {
+        width: 8%;
+    }
+
+    .menu li a{
+        padding: 0 0 0 50px;
+    }
+
+    header > nav > a > h1{
+        font-size: 1.7em;
+        letter-spacing: 0.2em;
+        padding-left: 1em;
+    }
+    header{
+        height: calc(var(--height-header) - 40px );
+        
+    }
+
+    header nav{
+        column-gap: 130px;
+        padding-left: 0;
+    }
+
+    #indic{
+        display:block;
+        margin:30px auto;
+    }
+    
+    #indic>i:nth-child(1){
+        margin-left: 0;
+    }
+    
+    #indic > i {
+        color:#814473;
+        transform: scale(1.35, 1.35);
+    }
+
+}

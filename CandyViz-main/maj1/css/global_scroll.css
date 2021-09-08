@@ -1,0 +1,60 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}img,video{width:100%;vertical-align:middle;}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 1000vw;
+    height: calc(100vh - var(--height-header));
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+    flex-wrap: wrap;    
+}
+.container {
+    width: calc(110vh + 116px);
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+
+}
+.slide {
+    width: 100vw;
+    height: calc(100vh - var(--height-header));
+    /* justify-content: center;
+    align-items: center; */
+    scroll-snap-align: start;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.one {
+    background: linear-gradient(to left, #FF928B, #CC6F69);
+}
+.two {
+    background: linear-gradient(to left,#6B8ED0, #8BB3FF);
+}
+.three {
+    background: linear-gradient(to left, #F2CE1D, #FFE97E);
+}
+.four {
+    background: linear-gradient(to left, #FFB53F, #F89A37);
+}
+.five {
+    background: linear-gradient(to left,#EA488C ,#ED7CB2);
+}
+.six {
+    background: linear-gradient(to left, #EB80AD, #F9BEB3);
+}
+.seven {
+    background: linear-gradient(to left,#DCCA3F ,#FFED66 );
+}
+.eight {
+    background: linear-gradient(to left,#48D6DF ,#60E6EF );
+}
+.nine {
+    background: linear-gradient(to left,#BA1E1E,#FF7474  );
+}
+.ten {
+    background: linear-gradient(to left,#2D42FF ,#7D92FF );
+}
